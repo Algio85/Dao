@@ -23,7 +23,6 @@ const meta = {
       ],
     },
     docs: {
-      description: {
         description: {
           component: `
     Full design system color palette.
@@ -64,7 +63,6 @@ const meta = {
     Click any swatch to copy the token name to clipboard.
           `.trim(),
         },
-      },
     },
   },
   argTypes: {
