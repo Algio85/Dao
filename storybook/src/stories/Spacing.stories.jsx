@@ -2,7 +2,7 @@ import React from 'react';
 import { SpacingScale } from '../components/SpacingScale';
 
 const meta = {
-  title: 'Design System / Spacing',
+  title: 'Foundations / Spacing',
   component: SpacingScale,
   tags: ['autodocs'],
   parameters: {

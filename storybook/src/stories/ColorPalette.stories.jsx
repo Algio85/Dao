@@ -10,7 +10,7 @@ const ALL_COLORS = Object.keys(shadesTokens.color.shade);
  * @type {import('@storybook/react').Meta<typeof ColorPalette>}
  */
 const meta = {
-  title: 'Design System / Color Palette',
+  title: 'Foundations / Color Palette',
   component: ColorPalette,
   tags: ['autodocs'],
   parameters: {

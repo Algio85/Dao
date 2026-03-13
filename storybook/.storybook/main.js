@@ -1,16 +1,10 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
 const config = {
   stories: ['../src/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
-  addons: [
-    '@storybook/addon-essentials',
-  ],
-  framework: {
-    name: '@storybook/react-vite',
-    options: {},
-  },
-  docs: {
-    autodocs: 'tag',
-  },
+  addons: ['@storybook/addon-essentials', '@storybook/addon-toolbars'],
+  framework: { name: '@storybook/react-vite', options: {} },
+  docs: { autodocs: 'tag' },
+  staticDirs: ['../public'],
 };
 
 export default config;

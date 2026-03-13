@@ -2,7 +2,7 @@ import React from 'react';
 import { BorderTokens } from '../components/BorderTokens';
 
 const meta = {
-  title: 'Design System / Borders',
+  title: 'Foundations / Borders',
   component: BorderTokens,
   tags: ['autodocs'],
   parameters: {

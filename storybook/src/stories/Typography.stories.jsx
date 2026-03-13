@@ -2,7 +2,7 @@ import React from 'react';
 import { TypographyScale } from '../components/TypographyScale';
 
 const meta = {
-  title: 'Design System / Typography',
+  title: 'Foundations / Typography',
   component: TypographyScale,
   tags: ['autodocs'],
   parameters: {
