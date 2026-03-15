@@ -5,7 +5,7 @@ import shadesTokens from '../tokens/shades.json';
 const ALL_COLORS = Object.keys(shadesTokens.color.shade);
 
 const meta = {
-  title: 'Foundations / Color Palette',
+  title: 'Foundations / Colors / Color Palette',
   component: ColorPalette,
   tags: ['autodocs'],
   parameters: {
